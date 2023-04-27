@@ -19,7 +19,7 @@ with open("C:/Users/HomePC/OOP_SourceCode/GWAReader/class_list.txt") as file_rea
         #print(student_gwa)
                 
         # Check each GPA and compare it to the highest grade attainable.
-        if highest_gwa < student_gwa <= 1.50:
+        if highest_gwa <= student_gwa <= 1.50:
             # Print the name of the student with the highest grade and their GPA.
             highest_student_gwa = student_gwa
             highest_student_name = student_name
