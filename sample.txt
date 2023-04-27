@@ -1,0 +1,1 @@
+This is a sample file to make sure that the connection between the local directory and git repository are working properly
