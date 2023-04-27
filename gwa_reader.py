@@ -11,7 +11,13 @@ with open("C:/Users/HomePC/OOP_SourceCode/GWAReader/class_list.txt") as student_
     print (file_reader)
     
 # Determine the highest grade that a student can recieve
+
+highest_grade = 1.00
+
 # Determine the lowest grade that a student can recieve
+
+lowest_grade = 5.00
+
 # Separate the student's name from their attained marks
     # Have the program read each gwa and compare it with the highest grade level a student can recieve.
     # # Print the name and the grade of the student with the highest grade and highest GWA.
